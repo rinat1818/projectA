@@ -1,0 +1,65 @@
+h1{
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-color: green;
+     text-align: center;
+}
+.floor {
+    background-color: rgb(183, 183, 183);
+}
+table{
+margin: auto;
+margin-bottom: 20px;
+ /* text-align: center; */
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: yellow
+}
+
+.board-conttainer button {
+  height: 50px;
+  width: 48px;
+
+  border: 1px solid black;
+  background: linear-gradient(-180deg, #ff7e31, #e62c03);
+
+}
+img{
+    height: 55px;
+  width: 55px;
+}
+button{
+     height: 55px;
+  width: 55px;
+ background-color:yellow
+}
+
+.buttonsn1{
+     height: 55px;
+  width: 55px;
+ background-color:rgb(230, 230, 49)
+}
+.buttonsn2{
+     height: 55px;
+  width: 55px;
+ background-color:greenyellow
+}
+.buttonsn3{
+     height: 55px;
+  width: 55px;
+ background-color:rgb(230, 230, 49)
+}
+.buttonsn4{
+     height: 55px;
+  width: 55px;
+ background-color:greenyellow
+}
+
