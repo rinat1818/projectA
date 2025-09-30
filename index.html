@@ -7,40 +7,38 @@
     <link rel="stylesheet" href="style.css">
 </head >
 <body onload="initGame(16)">
-    <h1>the Bombs game</h1>
+    <p class="hearts"> <span class="life1">💝</span> <span class="life2">💝</span> <span class="life3">💝</span></p>
+    <h1> Quantity of flags <span></span></h1>
+    
 
       <div class="win">
 <p>Congratulations, you managed to find all the bombs and win 🥳 🥳 🥳 🥳 🥳 🥳 🥳</p>
         </div>
-<!-- <div class="board-conttainer">
-<table></table>
 
-</div> -->
-<table>
-			<!-- <tbody class="board"></tbody>
-		</table> -->
-<div class="modal">
-    <h2>sorry! you lost the game!</h2>
-   <p class="smiley"> 🤮</p>
-  </div>
+        <div class="losing">
+<p>sorry! you lost the game 🤮🤮🤮🤮🤮🤮🤮🤮 </p>
+        </div>
 
-
+		
 <table class="game-board"></table>
-        <!-- <table class="game-board"></table> -->
-      
+        
+      <div class="timer-container">
+    <span class="timer">00 : 000</span>
+  </div>
 
         <button onclick="initGame(16)"class="buttonsn2">16</button>
         <button onclick="initGame(36)"class="buttonsn3">36</button>
         <button onclick="initGame(64)"class="buttonsn4">64</button>
+        <button onclick="initGame(81)"class="buttonsn3">81</button>
+     
         
        <div>
-<button class="play" onclick="initGame(16)">play 😀 again  </button>
+<button class="play" onclick="initGame(16)">play  <span>😀</span> again  </button>
 
        </div>
-
-<!-- <div class="trophy"> <img src="img/trophy.png" alt="Trophy picture"></div> -->
-
-
+       <footer>
+  <p class="end">Rinar leah meor-chai</p>
+</footer>
     <script src="js/Bombs.js"></script>
     <script src="js/util.js"></script>
 </body>
